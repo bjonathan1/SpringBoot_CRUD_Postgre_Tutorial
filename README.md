@@ -31,7 +31,9 @@ Now, let's get started!
 In order to start the Spring project, the easiest way is to initialize with [spring initializer](https://start.spring.io)
 which is officially provided by spring. 
 
-![spring initializr web page](/img/spring initializr.png)
+<div align=center>
+![spring initializr web page](./img/spring initializr.png)
+</div>
 
 Select just as the screenshot above : Maven Project - Java Language - 
 3.0.6 ver (any version is fine) - default Metadatas - Jar packaging -
