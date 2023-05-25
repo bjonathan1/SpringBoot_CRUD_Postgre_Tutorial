@@ -7,7 +7,6 @@ Author : Sungwoo (Jonathan) Kim
 
 ## What is Spring? Why do you use it?
 
----
 Spring is a Java based web framework that provides various of configurations, security, and utilities to
 build an application. Spring-Boot, especially, makes easier and faster to connect and service a powerful web application. 
 Also, it is one of the most popular framework currently used all over the world. 
@@ -25,8 +24,6 @@ Some fundamental concepts will be included in this tutorial, so wish you follow 
 Now, let's get started! 
 
 ## Running the server
-
----
 
 In order to start the Spring project, the easiest way is to initialize with [spring initializer](https://start.spring.io)
 which is officially provided by spring. 
@@ -66,8 +63,6 @@ If you see a _Whitelabel Error Page_, it means the server is running correctly.
 
 ## Display a simple phrase on the server
 
----
-
 Now we are going to make a Controller that handles the request of a user. Let's create a 
 **'student'** package and controller java file in the package. 
 > src > main > java > com.example.demo > student > StudentController.java
@@ -99,8 +94,6 @@ public List<String> hello() {
 ```
 
 ## Construct a business architecture of Spring Framework
-
----
 
 This is the project overview that we will implement for this project.
 We will make database named `student`, and table named `Student` 
@@ -257,7 +250,6 @@ but with **business logic** included.
 
 ## Create and Connect to Database
 
----
 First we need to provide some basic data to our project. No matter what database you
 use, you will need to fill the `application properties` in order to connect with the
 database. 
@@ -376,7 +368,6 @@ but we have one last but not the least section to go! Let's keep it up!
 
 ## Implement CRUD using Database
 
----
 As I mentioned of above, Spring Data JPA is a feature of the dependency helps to easily 
 manipulate the database. We will directly implement this by using `JPA Repository`, and find 
 out how power the JPA is. 
