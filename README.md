@@ -31,9 +31,7 @@ Now, let's get started!
 In order to start the Spring project, the easiest way is to initialize with [spring initializer](https://start.spring.io)
 which is officially provided by spring. 
 
-<div align=center>
-![spring initializr web page](./img/spring initializr.png)
-</div>
+![spring initializr web page](./img/spring_initializr.png)
 
 Select just as the screenshot above : Maven Project - Java Language - 
 3.0.6 ver (any version is fine) - default Metadatas - Jar packaging -
@@ -109,7 +107,7 @@ We will make database named `student`, and table named `Student`
 and implement CRUD(Create, Read, Update, Delete) by RESTful API. Here is an example
 of basic idea that will be done. 
 
-![Project Overview](./img/project overview.png)
+![Project Overview](./img/project_overview.png)
 
 Before we start to learn the business architecture, we need took understand some 
 fundamental concepts of Spring in order to understand fully.
